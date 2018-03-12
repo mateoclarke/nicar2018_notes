@@ -1,0 +1,14 @@
+{
+  "root": true,
+  "parser": "babel-eslint",
+  "env": {
+    "browser": true
+  },
+  "rules": {
+    "no-console": 0,
+    "semi": [2, "always"],
+    "comma-dangle": 0,
+    "react/prop-types": 0
+  },
+  "extends": ["standard", "standard-react"]
+}
